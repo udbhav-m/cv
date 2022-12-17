@@ -1,0 +1,141 @@
+/*element selector*/
+
+body{
+    text-align: center;
+    background-color: #CBEDD5;
+    margin: 0;
+    font-family: 'Merriweather',Verdana, sans-serif;
+    line-height: 2;
+    color: black;
+}
+
+h1{
+    font-family: sacramento, cursive;
+    margin:auto;
+    padding: 100px 0 0 0;
+    font-size:90px;
+}
+
+h2{
+    font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+h3{
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    line-height: 2;
+}
+
+span{
+    text-decoration: underline;
+}
+
+hr{
+    color: darkslategray;
+    border-style: none;
+    border-top-style:dotted;
+    border-top-width:10px;
+    height: 6px;
+    width: 60px;
+}
+
+button{
+    background: none;
+    height: 50px;
+    width: 150px;
+    margin: 30px;
+    border-radius: 30px;
+    
+}
+
+button:hover{
+    background-color: #439A97;
+    position: relative;
+    bottom: 0.5rem;
+    animation: ease;
+    animation-duration: 10s;
+    color: antiquewhite;
+}
+
+
+a{
+    color: black ;
+    text-decoration: none;    
+    padding: 20px;
+    font-weight: bold;
+}
+a:hover{
+    color: antiquewhite;
+}
+
+
+/*class selectors*/
+
+.head{
+    background-color: #439A97;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+.foot{
+    background-color: #439A97;
+    padding: 50px;
+}
+
+.profile{
+    padding: 50px;
+}
+
+
+.cloud-a{
+    position: absolute;
+    right: 30%;
+    top: 5%;
+}
+
+.cloud-b{
+    position:absolute;
+    left: 30%;
+}
+
+.dp{
+    border-radius: 50%;
+}
+
+
+.skills{
+    width: 50%;
+    margin: auto;
+    padding: 50px;
+}
+
+.ih{
+    border-radius: 10%;
+    width: 25%;
+    float: left;
+}
+
+.ic{
+    border-radius: 10%;
+    width: 25%;
+    float: right;
+}
+
+.ij{
+    border-radius: 10%;
+    width: 20%;
+    float: left;
+    position: relative;
+    left: -20px;
+}
+
+.html,.css,.js{
+    text-align: left;
+    width: auto;
+    margin: 70px;
+}
+
+.contact{
+    color: black;
+    padding: 0;
+    font-weight: bold;
+}
